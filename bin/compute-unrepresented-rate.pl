@@ -69,28 +69,24 @@ for my $csv_file (sort <data/*.csv>) {
 
     my $result = compute_one($csv_file);
 
-    my $csv_writer = Text::CSV->new({ binary => 1 });
-    open( my $stats_csv_fh, ">:utf8", $stats_csv_file );
-
-    my sub csv_print { $csv_writer->print($stats_csv_fh, [@_]); print $stats_csv_fh "\n"; };
-
-    csv_print("Area", "Unrepresented Rate", "Unrepresented Votes", "Votes");
-
     my @area_rate;
     for my $area (keys %{$result->{area}}) {
         my $area_result = $result->{area}{$area};
-
         push @area_rate, [
             $area,
             ($area_result->{unrepresented_votes} / $area_result->{votes}),
         ];
     }
 
-    for (sort { $a->[1] <=> $b->[1] } @area_rate)  {
-        my ($area, $area_p) = @$_;
-        my $area_result = $result->{area}{$area};
-        csv_print($area, sprintf('%.4f', $area_p), $area_result->{unrepresented_votes}, $area_result->{votes});
-    }
+    my $csv_writer = Text::CSV->new({ binary => 1 });
+    open( my $stats_csv_fh, ">:utf8", $stats_csv_file );
+
+    my sub csv_print {
+        $csv_writer->print($stats_csv_fh, [@_]);
+        print $stats_csv_fh "\n";
+    };
+
+    csv_print("Area", "Unrepresented Rate", "Unrepresented Votes", "Votes");
 
     csv_print(
         "(Total)",
@@ -98,4 +94,10 @@ for my $csv_file (sort <data/*.csv>) {
         $result->{total}{unrepresented_votes},
         $result->{total}{votes}
     );
+
+    for (sort { $b->[1] <=> $a->[1] } @area_rate)  {
+        my ($area, $area_p) = @$_;
+        my $area_result = $result->{area}{$area};
+        csv_print($area, sprintf('%.4f', $area_p), $area_result->{unrepresented_votes}, $area_result->{votes});
+    }
 }
