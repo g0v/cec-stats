@@ -1,0 +1,4267 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 選舉資料查詢 -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>中選會選舉資料庫網站</title>
+<link rel="stylesheet" type="text/css" href="votehist.css">
+<script type="text/javascript">
+	function AddToFaves_hp() {
+		var is_4up = parseInt(navigator.appVersion);
+		var is_mac   = navigator.userAgent.toLowerCase().indexOf("mac")!=-1;
+		var is_ie   = navigator.userAgent.toLowerCase().indexOf("msie")!=-1;
+		var thePage = location.href;
+		if (thePage.lastIndexOf('#')!=-1)
+			thePage = thePage.substring(0,thePage.lastIndexOf('#'));
+		if (is_ie && is_4up && !is_mac) 
+			window.external.AddFavorite(thePage,document.title);
+		else if (is_ie || document.images)
+			booker_hp = window.open(thePage,'booker_','menubar,width=325,height=100,left=140,top=60');
+		//booker_hp.focus();
+	}
+</script>
+</head>
+<body class="frame">
+
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 標題：選舉資料庫網站 -->
+<div style="width: 100%; height: 56px; margin: 0px 0px 0px 0px; border-style: solid; border-width: 0px 0px 1px 0px; border-color: black;">
+	<div style="float: left;">
+		<img src="images/main_title.gif" />
+	</div>
+	<div style="width: 100%; height: 48px;">
+		<div style="text-align: center;">
+			<img src="images/small_ghost.gif" /> <span
+				style="height: 30px; font-size: 20px;"> <a href="http://www.cec.gov.tw"
+				style="text-decoration: none;">回中選會網站</a>
+			</span>
+		</div>
+	</div>
+	<div style="width: 100%; height: 8px; background-color: #fde501;">
+	</div>
+</div>
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 頁籤 -->
+<div
+	style="width: 100%; height: 29px; background-image: url('images/tab_background.gif'); background-repeat: repeat-x;">
+	<div style="text-align: center;">
+		<a href="histMain.jsp"><img border="0" src="images/tab_01.gif" /></a>
+		<a href="histCand.jsp"><img	border="0" src="images/tab_02.gif" /></a>
+		<!-- <a href=""><img	border="0" src="images/tab_03.gif" /></a> -->
+		<!-- <a href=""><img	border="0" src="images/tab_04.gif" /></a> -->
+		<a href="#"><img	border="0" src="images/tab_05.gif" onClick="AddToFaves_hp()" /></a>
+		<a href="http://web.cec.gov.tw/central/emailSend" Target="_new"><img	border="0" src="images/tab_06.gif" /></a>
+	</div>
+</div>
+<div
+	style="width: 100%; height: 22px; background-image: url('images/tab_separator.gif'); background-repeat: repeat-x;">
+</div>
+
+
+	<div class="query">
+
+		
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 子頁面：查詢候選人得票數 -->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<!-- 標題 -->
+<div class="titlebox">
+	<div class="title">
+		<div class="head">第 07 屆 立法委員選舉（區域）&nbsp;候選人得票數</div>
+		<div class="date">投票日期：中華民國97年01月12日</div>
+		<div class="separator"></div>
+	</div>
+</div>
+
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- 查詢：候選人得票數，縣市多選區，如區域立委 -->
+
+
+<link rel="stylesheet" type="text/css" href="qryCtks.css" />
+
+
+	<!-- 直轄市及省轄市表頭 -->
+	<table class="ctks" width="950" height="22" border=1 cellpadding="0" cellspacing="0" >
+		<tr class="title">
+			<td nowrap align="center">地區</td>
+			<td nowrap align="center">姓名</td>
+			<td nowrap align="center">號次</td>
+			<td nowrap align="center">性別</td>
+			<td nowrap align="center">出生年次</td>
+        	<td nowrap align="center">推薦政黨</td>
+			<td nowrap align="center">得票數</td>
+        	<td nowrap align="center">得票率</td>
+      		<td nowrap align="center">當選註記</td>
+			<td nowrap align="center">是否現任</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=01">臺北市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=01&candNo=1">張歷元</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">336</td>
+			<td nowrap align="right">  0.21%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=01&candNo=2">高建智</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">61408</td>
+			<td nowrap align="right"> 38.79%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=01&candNo=3">丁守中</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">94694</td>
+			<td nowrap align="right"> 59.81%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=01&candNo=4">曾瑾珮</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1977</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">1862</td>
+			<td nowrap align="right">  1.17%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=02">臺北市第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=02&candNo=1">周奕成</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1967</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">2812</td>
+			<td nowrap align="right">  1.81%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=02&candNo=2">周守訓</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1966</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">81386</td>
+			<td nowrap align="right"> 52.39%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=02&candNo=3">王世堅</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">71119</td>
+			<td nowrap align="right"> 45.78%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=03">臺北市第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=03&candNo=1">蔣孝嚴</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1941</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">99959</td>
+			<td nowrap align="right"> 60.25%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=03&candNo=2">李林耀</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">128</td>
+			<td nowrap align="right">  0.07%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=03&candNo=3">謝馥米</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">1854</td>
+			<td nowrap align="right">  1.11%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=03&candNo=4">簡瑞寬</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1974</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">176</td>
+			<td nowrap align="right">  0.10%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=03&candNo=5">郭正亮</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">63773</td>
+			<td nowrap align="right"> 38.44%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04">臺北市第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04&candNo=1">莊婉均</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1684</td>
+			<td nowrap align="right">  0.99%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04&candNo=2">張慶源</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">470</td>
+			<td nowrap align="right">  0.27%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04&candNo=3">蔡正元</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">105375</td>
+			<td nowrap align="right"> 62.25%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04&candNo=4">許家琛</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1935</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">159</td>
+			<td nowrap align="right">  0.09%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04&candNo=5">柯逸民</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1967</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">1580</td>
+			<td nowrap align="right">  0.93%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=04&candNo=6">徐國勇</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">60004</td>
+			<td nowrap align="right"> 35.44%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05">臺北市第05選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05&candNo=1">葉玫</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">324</td>
+			<td nowrap align="right">  0.21%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05&candNo=2">吳建毅</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">251</td>
+			<td nowrap align="right">  0.16%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05&candNo=3">魏志中</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1965</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">284</td>
+			<td nowrap align="right">  0.18%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05&candNo=4">林郁方</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">87448</td>
+			<td nowrap align="right"> 58.24%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05&candNo=5">黃啟彬</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">360</td>
+			<td nowrap align="right">  0.23%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=05&candNo=6">段宜康</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">61480</td>
+			<td nowrap align="right"> 40.94%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=8 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06">臺北市第06選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=1">樂可銘</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1947</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">89</td>
+			<td nowrap align="right">  0.05%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=2">李慶安</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">99294</td>
+			<td nowrap align="right"> 66.80%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=3">王保善</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">417</td>
+			<td nowrap align="right">  0.28%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=4">余少鈞</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">131</td>
+			<td nowrap align="right">  0.08%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=5">羅文嘉</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1966</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">48240</td>
+			<td nowrap align="right"> 32.45%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=6">古文發</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">民主自由黨</td>
+			<td nowrap align="right">155</td>
+			<td nowrap align="right">  0.10%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=7">林俊賢</a></td>
+			<td nowrap align="center">7</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">221</td>
+			<td nowrap align="right">  0.14%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=06&candNo=8">林裕發</a></td>
+			<td nowrap align="center">8</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1932</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">87</td>
+			<td nowrap align="right">  0.05%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=7 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07">臺北市第07選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=1">張國慶</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">1350</td>
+			<td nowrap align="right">  0.93%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=2">連石磊</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">241</td>
+			<td nowrap align="right">  0.16%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=3">陳源奇</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1940</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">229</td>
+			<td nowrap align="right">  0.15%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=4">潘翰聲</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1970</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">1275</td>
+			<td nowrap align="right">  0.88%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=5">費鴻泰</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">95145</td>
+			<td nowrap align="right"> 65.79%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=6">田欣</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1962</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">46059</td>
+			<td nowrap align="right"> 31.85%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=07&candNo=7">秦政德</a></td>
+			<td nowrap align="center">7</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">313</td>
+			<td nowrap align="right">  0.21%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=7 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08">臺北市第08選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=1">梅峯</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">171</td>
+			<td nowrap align="right">  0.11%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=2">任立民</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1967</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">234</td>
+			<td nowrap align="right">  0.16%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=3">周柏雅</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">38261</td>
+			<td nowrap align="right"> 26.35%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=4">賴士葆</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">104257</td>
+			<td nowrap align="right"> 71.81%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=5">史美延</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">492</td>
+			<td nowrap align="right">  0.33%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=6">方景鈞</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1930</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">277</td>
+			<td nowrap align="right">  0.19%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=01&cityCode=000&areaCode=08&candNo=7">彭渰雯</a></td>
+			<td nowrap align="center">7</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">1481</td>
+			<td nowrap align="right">  1.02%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=01">高雄市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=01&candNo=1">黃昭順</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">92417</td>
+			<td nowrap align="right"> 58.29%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=01&candNo=2">姚文智</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1965</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">65266</td>
+			<td nowrap align="right"> 41.17%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=01&candNo=3">錢彙穎</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1983</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">841</td>
+			<td nowrap align="right">  0.53%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=02">高雄市第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=02&candNo=1">羅世雄</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">63410</td>
+			<td nowrap align="right"> 48.84%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=02&candNo=2">李凈瑜</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1975</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">424</td>
+			<td nowrap align="right">  0.32%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=02&candNo=3">曾文聖</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1949</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">186</td>
+			<td nowrap align="right">  0.14%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=02&candNo=4">林稱雄</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1949</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">184</td>
+			<td nowrap align="right">  0.14%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=02&candNo=5">管碧玲</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">65604</td>
+			<td nowrap align="right"> 50.53%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03">高雄市第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03&candNo=1">莊繡慈</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">777</td>
+			<td nowrap align="right">  0.67%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03&candNo=2">侯彩鳳</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">56826</td>
+			<td nowrap align="right"> 49.13%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03&candNo=3">李昆澤</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1964</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">49392</td>
+			<td nowrap align="right"> 42.70%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03&candNo=4">吳春香</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">249</td>
+			<td nowrap align="right">  0.21%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03&candNo=5">林進興</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">8225</td>
+			<td nowrap align="right">  7.11%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=03&candNo=6">蘇經孟</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1975</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">178</td>
+			<td nowrap align="right">  0.15%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=04">高雄市第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=04&candNo=1">黃昭輝</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1946</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">67663</td>
+			<td nowrap align="right"> 46.61%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=04&candNo=2">林景元</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1925</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1626</td>
+			<td nowrap align="right">  1.12%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=04&candNo=3">劉慧雯</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">1105</td>
+			<td nowrap align="right">  0.76%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=04&candNo=4">林志聰</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">257</td>
+			<td nowrap align="right">  0.17%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=04&candNo=5">李復興</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1946</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">74502</td>
+			<td nowrap align="right"> 51.32%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05">高雄市第05選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05&candNo=1">郭玟成</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">70576</td>
+			<td nowrap align="right"> 51.98%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05&candNo=2">曹文玟</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">444</td>
+			<td nowrap align="right">  0.32%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05&candNo=3">楊掌朝</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1945</td>
+			<td nowrap align="center">洪運忠義黨</td>
+			<td nowrap align="right">581</td>
+			<td nowrap align="right">  0.42%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05&candNo=4">趙連出</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1940</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">1098</td>
+			<td nowrap align="right">  0.80%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05&candNo=5">楊美蘭</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">596</td>
+			<td nowrap align="right">  0.43%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=02&cityCode=000&areaCode=05&candNo=6">林國正</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1966</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">62480</td>
+			<td nowrap align="right"> 46.01%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01">臺北縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01&candNo=1">王天裕</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">242</td>
+			<td nowrap align="right">  0.17%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01&candNo=2">莊孟學</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">1598</td>
+			<td nowrap align="right">  1.12%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01&candNo=3">楊仁清</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">325</td>
+			<td nowrap align="right">  0.22%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01&candNo=4">吳育昇</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">82949</td>
+			<td nowrap align="right"> 58.38%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01&candNo=5">李顯榮</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1947</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">56594</td>
+			<td nowrap align="right"> 39.83%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=01&candNo=6">吳金治</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1974</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">366</td>
+			<td nowrap align="right">  0.25%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=02">臺北縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=02&candNo=1">林志嘉</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">8242</td>
+			<td nowrap align="right">  6.00%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=02&candNo=2">林淑芬</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">59225</td>
+			<td nowrap align="right"> 43.17%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=02&candNo=3">柯淑敏</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">54774</td>
+			<td nowrap align="right"> 39.92%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=02&candNo=4">楊蓮福</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1964</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">14948</td>
+			<td nowrap align="right"> 10.89%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=03">臺北縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=03&candNo=1">朱俊曉</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">73286</td>
+			<td nowrap align="right"> 48.24%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=03&candNo=2">蘇卿彥</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1939</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">767</td>
+			<td nowrap align="right">  0.50%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=03&candNo=3">余天</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">75212</td>
+			<td nowrap align="right"> 49.51%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=03&candNo=4">劉一德</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">1645</td>
+			<td nowrap align="right">  1.08%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=03&candNo=5">劉英芮</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1983</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">990</td>
+			<td nowrap align="right">  0.65%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=04">臺北縣第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=04&candNo=1">李鴻鈞</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">77122</td>
+			<td nowrap align="right"> 51.73%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=04&candNo=2">鄭余豪</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1975</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">969</td>
+			<td nowrap align="right">  0.64%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=04&candNo=3">吳秉叡</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1966</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">70265</td>
+			<td nowrap align="right"> 47.13%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=04&candNo=4">徐文彥</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">721</td>
+			<td nowrap align="right">  0.48%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=05">臺北縣第05選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=05&candNo=1">溫炳原</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1967</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">507</td>
+			<td nowrap align="right">  0.42%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=05&candNo=2">陳誠鈞</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">154</td>
+			<td nowrap align="right">  0.13%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=05&candNo=3">王文秀</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">338</td>
+			<td nowrap align="right">  0.28%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=05&candNo=4">黃志雄</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1976</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">61948</td>
+			<td nowrap align="right"> 52.32%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=05&candNo=5">廖本煙</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">55444</td>
+			<td nowrap align="right"> 46.83%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=06">臺北縣第06選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=06&candNo=1">王淑慧</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">51775</td>
+			<td nowrap align="right"> 42.66%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=06&candNo=2">林鴻池</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">69097</td>
+			<td nowrap align="right"> 56.93%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=06&candNo=3">林景松</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1943</td>
+			<td nowrap align="center">世界和平黨</td>
+			<td nowrap align="right">489</td>
+			<td nowrap align="right">  0.40%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=07">臺北縣第07選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=07&candNo=1">莊碩漢</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">49008</td>
+			<td nowrap align="right"> 41.61%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=07&candNo=2">林淑慧</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1977</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">1436</td>
+			<td nowrap align="right">  1.21%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=07&candNo=3">林育任</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">1583</td>
+			<td nowrap align="right">  1.34%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=07&candNo=4">吳清池</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1949</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">65752</td>
+			<td nowrap align="right"> 55.82%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=08">臺北縣第08選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=08&candNo=1">張慶忠</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">94785</td>
+			<td nowrap align="right"> 59.55%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=08&candNo=2">甘郡榮</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1978</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1255</td>
+			<td nowrap align="right">  0.78%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=08&candNo=3">趙永清</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">63123</td>
+			<td nowrap align="right"> 39.65%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=09">臺北縣第09選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=09&candNo=1">楊錫周</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1930</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">338</td>
+			<td nowrap align="right">  0.23%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=09&candNo=2">周倪安</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">15669</td>
+			<td nowrap align="right"> 11.05%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=09&candNo=3">洪一平</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1945</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">27044</td>
+			<td nowrap align="right"> 19.08%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=09&candNo=4">林德福</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">98634</td>
+			<td nowrap align="right"> 69.61%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=10">臺北縣第10選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=10&candNo=1">盧嘉辰</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">77656</td>
+			<td nowrap align="right"> 60.10%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=10&candNo=2">李恢先</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">669</td>
+			<td nowrap align="right">  0.51%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=10&candNo=3">李文忠</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">50869</td>
+			<td nowrap align="right"> 39.37%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=11">臺北縣第11選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=11&candNo=1">葛彰台</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">246</td>
+			<td nowrap align="right">  0.16%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=11&candNo=2">陳永福</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">43580</td>
+			<td nowrap align="right"> 28.76%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=11&candNo=3">林美秀</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">696</td>
+			<td nowrap align="right">  0.45%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=11&candNo=4">許玫茵</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1982</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">1390</td>
+			<td nowrap align="right">  0.91%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=11&candNo=5">羅明才</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1967</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">105601</td>
+			<td nowrap align="right"> 69.69%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=12">臺北縣第12選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=12&candNo=1">陳朝龍</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">46590</td>
+			<td nowrap align="right"> 38.24%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=12&candNo=2">蕭振珉</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">573</td>
+			<td nowrap align="right">  0.47%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=12&candNo=3">廖學廣</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">11348</td>
+			<td nowrap align="right">  9.31%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=001&areaCode=12&candNo=4">李慶華</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">63297</td>
+			<td nowrap align="right"> 51.96%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=002&areaCode=01">宜蘭縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=002&areaCode=01&candNo=1">陳金德</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">81984</td>
+			<td nowrap align="right"> 45.86%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=002&areaCode=01&candNo=2">林建榮</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1946</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">94965</td>
+			<td nowrap align="right"> 53.12%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=002&areaCode=01&candNo=3">謝李靜宜</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">民主自由黨</td>
+			<td nowrap align="right">1795</td>
+			<td nowrap align="right">  1.00%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=01">桃園縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=01&candNo=1">陳根德</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">75973</td>
+			<td nowrap align="right"> 61.76%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=01&candNo=2">陳志明</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">647</td>
+			<td nowrap align="right">  0.52%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=01&candNo=3">李鎮楠</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">45257</td>
+			<td nowrap align="right"> 36.79%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=01&candNo=4">姚毅君</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">1118</td>
+			<td nowrap align="right">  0.90%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=02">桃園縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=02&candNo=1">郭榮宗</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">58577</td>
+			<td nowrap align="right"> 44.91%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=02&candNo=2">廖正井</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1945</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">71174</td>
+			<td nowrap align="right"> 54.57%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=02&candNo=3">蔡楊如松</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1927</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">672</td>
+			<td nowrap align="right">  0.51%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=03">桃園縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=03&candNo=1">吳志揚</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">85821</td>
+			<td nowrap align="right"> 63.22%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=03&candNo=2">彭添富</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">49305</td>
+			<td nowrap align="right"> 36.32%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=03&candNo=3">張明松</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">618</td>
+			<td nowrap align="right">  0.45%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=04">桃園縣第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=04&candNo=1">楊麗環</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">80769</td>
+			<td nowrap align="right"> 62.42%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=04&candNo=2">黃宗源</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">47966</td>
+			<td nowrap align="right"> 37.07%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=04&candNo=3">蔡佩宜</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">645</td>
+			<td nowrap align="right">  0.49%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=05">桃園縣第05選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=05&candNo=1">劉俊儀</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">6214</td>
+			<td nowrap align="right">  4.97%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=05&candNo=2">黃嘉華</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1970</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">382</td>
+			<td nowrap align="right">  0.30%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=05&candNo=3">朱鳳芝</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">79671</td>
+			<td nowrap align="right"> 63.76%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=05&candNo=4">李月琴</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">38671</td>
+			<td nowrap align="right"> 30.95%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=06">桃園縣第06選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=06&candNo=1">姚吉鴻</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">3147</td>
+			<td nowrap align="right">  2.57%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=06&candNo=2">邱創良</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">39660</td>
+			<td nowrap align="right"> 32.40%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=003&areaCode=06&candNo=3">孫大千</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">79593</td>
+			<td nowrap align="right"> 65.02%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=004&areaCode=01">新竹縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=004&areaCode=01&candNo=1">徐欣瑩</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">60209</td>
+			<td nowrap align="right"> 31.31%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=004&areaCode=01&candNo=2">余玉池</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">4152</td>
+			<td nowrap align="right">  2.15%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=004&areaCode=01&candNo=3">邱鏡淳</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1949</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">127892</td>
+			<td nowrap align="right"> 66.52%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=01">苗栗縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=01&candNo=1">杜文卿</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">46905</td>
+			<td nowrap align="right"> 41.98%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=01&candNo=2">李乙廷</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">64817</td>
+			<td nowrap align="right"> 58.01%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02">苗栗縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02&candNo=1">何智輝</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">48290</td>
+			<td nowrap align="right"> 38.06%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02&candNo=2">郭玉枝</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">975</td>
+			<td nowrap align="right">  0.76%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02&candNo=3">莊嚴</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1965</td>
+			<td nowrap align="center">民主自由黨</td>
+			<td nowrap align="right">474</td>
+			<td nowrap align="right">  0.37%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02&candNo=4">詹運喜</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1962</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">18905</td>
+			<td nowrap align="right"> 14.90%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02&candNo=5">賴金明</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1976</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">335</td>
+			<td nowrap align="right">  0.26%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=005&areaCode=02&candNo=6">徐耀昌</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">57880</td>
+			<td nowrap align="right"> 45.62%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=01">臺中縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=01&candNo=1">蔡其昌</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">51624</td>
+			<td nowrap align="right"> 46.40%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=01&candNo=2">劉銓忠</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1942</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">59632</td>
+			<td nowrap align="right"> 53.59%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=02">臺中縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=02&candNo=1">李順涼</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">14611</td>
+			<td nowrap align="right"> 10.50%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=02&candNo=2">劉瑞龍</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">41093</td>
+			<td nowrap align="right"> 29.55%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=02&candNo=3">顏清標</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">無黨團結聯盟</td>
+			<td nowrap align="right">83349</td>
+			<td nowrap align="right"> 59.94%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=03">臺中縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=03&candNo=1">江連福</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">75563</td>
+			<td nowrap align="right"> 54.95%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=03&candNo=2">簡肇棟</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">61927</td>
+			<td nowrap align="right"> 45.04%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=04">臺中縣第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=04&candNo=1">高基讚</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">38368</td>
+			<td nowrap align="right"> 35.99%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=04&candNo=2">徐中雄</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">68216</td>
+			<td nowrap align="right"> 64.00%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=05">臺中縣第05選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=05&candNo=1">楊瓊瓔</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1964</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">72270</td>
+			<td nowrap align="right"> 57.68%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=006&areaCode=05&candNo=2">郭俊銘</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">53012</td>
+			<td nowrap align="right"> 42.31%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=01">彰化縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=01&candNo=1">陳秀卿</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">67236</td>
+			<td nowrap align="right"> 44.96%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=01&candNo=2">柯金德</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">31516</td>
+			<td nowrap align="right"> 21.07%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=01&candNo=3">陳進丁</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1946</td>
+			<td nowrap align="center">無黨團結聯盟</td>
+			<td nowrap align="right">50771</td>
+			<td nowrap align="right"> 33.95%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=02">彰化縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=02&candNo=1">邱創進</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">47809</td>
+			<td nowrap align="right"> 36.85%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=02&candNo=2">林滄敏</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">77871</td>
+			<td nowrap align="right"> 60.02%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=02&candNo=3">林招膨</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">4047</td>
+			<td nowrap align="right">  3.11%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=03">彰化縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=03&candNo=1">鄭汝芬</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">68486</td>
+			<td nowrap align="right"> 45.33%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=03&candNo=2">楊宗哲</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">35989</td>
+			<td nowrap align="right"> 23.82%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=03&candNo=3">林重謨</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1947</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">46595</td>
+			<td nowrap align="right"> 30.84%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=04">彰化縣第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=04&candNo=1">陳朝容</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">20690</td>
+			<td nowrap align="right"> 14.00%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=04&candNo=2">謝章捷</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">11302</td>
+			<td nowrap align="right">  7.64%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=04&candNo=3">江昭儀</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1943</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">54808</td>
+			<td nowrap align="right"> 37.08%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=007&areaCode=04&candNo=4">蕭景田</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">60980</td>
+			<td nowrap align="right"> 41.26%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=01">南投縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=01&candNo=1">吳敦義</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">64295</td>
+			<td nowrap align="right"> 67.12%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=01&candNo=2">林耘生</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">31489</td>
+			<td nowrap align="right"> 32.87%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=02">南投縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=02&candNo=1">林明溱</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1951</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">62344</td>
+			<td nowrap align="right"> 57.93%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=02&candNo=2">湯火聖</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">44397</td>
+			<td nowrap align="right"> 41.25%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=008&areaCode=02&candNo=3">陳翠容</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">873</td>
+			<td nowrap align="right">  0.81%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=01">雲林縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=01&candNo=1">黃山谷</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1947</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">779</td>
+			<td nowrap align="right">  0.50%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=01&candNo=2">蔡桓生</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1964</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1648</td>
+			<td nowrap align="right">  1.07%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=01&candNo=3">張嘉郡</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1981</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">86571</td>
+			<td nowrap align="right"> 56.24%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=01&candNo=4">陳憲中</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">64921</td>
+			<td nowrap align="right"> 42.17%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02">雲林縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02&candNo=1">尹伶瑛</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">17282</td>
+			<td nowrap align="right"> 10.72%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02&candNo=2">張碩文</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">79138</td>
+			<td nowrap align="right"> 49.11%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02&candNo=3">黃國華</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">499</td>
+			<td nowrap align="right">  0.30%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02&candNo=4">張昆煌</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">454</td>
+			<td nowrap align="right">  0.28%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02&candNo=5">廖珪如</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1982</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">2055</td>
+			<td nowrap align="right">  1.27%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=009&areaCode=02&candNo=6">劉建國</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">61703</td>
+			<td nowrap align="right"> 38.29%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=01">嘉義縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=01&candNo=1">蔡啟芳</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">55860</td>
+			<td nowrap align="right"> 42.52%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=01&candNo=2">翁重鈞</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">75489</td>
+			<td nowrap align="right"> 57.47%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=02">嘉義縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=02&candNo=1">張花冠</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">65192</td>
+			<td nowrap align="right"> 57.05%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=02&candNo=2">黃茂</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1944</td>
+			<td nowrap align="center">制憲聯盟</td>
+			<td nowrap align="right">940</td>
+			<td nowrap align="right">  0.82%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=010&areaCode=02&candNo=3">涂文生</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">48131</td>
+			<td nowrap align="right"> 42.12%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=01">臺南縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=01&candNo=1">葉宜津</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">83909</td>
+			<td nowrap align="right"> 54.57%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=01&candNo=2">陳俊倫</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">1048</td>
+			<td nowrap align="right">  0.68%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=01&candNo=3">洪玉欽</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1943</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">68796</td>
+			<td nowrap align="right"> 44.74%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=02">臺南縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=02&candNo=1">李和順</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">無黨團結聯盟</td>
+			<td nowrap align="right">65601</td>
+			<td nowrap align="right"> 40.83%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=02&candNo=2">黃偉哲</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">95061</td>
+			<td nowrap align="right"> 59.16%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=03">臺南縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=03&candNo=1">吳健保</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">76285</td>
+			<td nowrap align="right"> 47.33%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=011&areaCode=03&candNo=2">李俊毅</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">84873</td>
+			<td nowrap align="right"> 52.66%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=01">高雄縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=01&candNo=1">鍾紹和</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1956</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">72309</td>
+			<td nowrap align="right"> 53.55%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=01&candNo=2">江嘉盛</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">1025</td>
+			<td nowrap align="right">  0.75%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=01&candNo=3">顏文章</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1947</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">61679</td>
+			<td nowrap align="right"> 45.68%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=02">高雄縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=02&candNo=1">劉政瑋</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1980</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">3250</td>
+			<td nowrap align="right">  2.12%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=02&candNo=2">余政憲</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">65257</td>
+			<td nowrap align="right"> 42.60%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=02&candNo=3">林益世</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">84659</td>
+			<td nowrap align="right"> 55.27%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03">高雄縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03&candNo=1">陳啟昱</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1965</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">55848</td>
+			<td nowrap align="right"> 45.13%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03&candNo=2">黃憲南</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">317</td>
+			<td nowrap align="right">  0.25%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03&candNo=3">吳光訓</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">53205</td>
+			<td nowrap align="right"> 43.00%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03&candNo=4">徐慶煌</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1976</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">13158</td>
+			<td nowrap align="right"> 10.63%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03&candNo=5">簡宏德</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">996</td>
+			<td nowrap align="right">  0.80%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=03&candNo=6">簡家弘</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">199</td>
+			<td nowrap align="right">  0.16%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04">高雄縣第04選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04&candNo=1">陳明政</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">204</td>
+			<td nowrap align="right">  0.13%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04&candNo=2">吳隆傑</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">1095</td>
+			<td nowrap align="right">  0.74%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04&candNo=3">張美嫻</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1978</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">266</td>
+			<td nowrap align="right">  0.18%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04&candNo=4">楊東杰</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">台灣農民黨</td>
+			<td nowrap align="right">377</td>
+			<td nowrap align="right">  0.25%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04&candNo=5">林岱樺</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">71450</td>
+			<td nowrap align="right"> 48.45%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=012&areaCode=04&candNo=6">江玲君</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1975</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">74062</td>
+			<td nowrap align="right"> 50.22%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01">屏東縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01&candNo=1">王樹圍</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">2355</td>
+			<td nowrap align="right">  1.74%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01&candNo=2">蕭立應</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1971</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">470</td>
+			<td nowrap align="right">  0.34%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01&candNo=3">蔡豪</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">58727</td>
+			<td nowrap align="right"> 43.41%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01&candNo=4">藍群傑</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">6656</td>
+			<td nowrap align="right">  4.92%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01&candNo=5">蘇震清</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1965</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">63453</td>
+			<td nowrap align="right"> 46.90%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=01&candNo=6">張惠怡</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1970</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">3617</td>
+			<td nowrap align="right">  2.67%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=02">屏東縣第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=02&candNo=1">李世斌</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1962</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">52441</td>
+			<td nowrap align="right"> 43.17%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=02&candNo=2">王進士</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">69027</td>
+			<td nowrap align="right"> 56.82%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=03">屏東縣第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=03&candNo=1">潘孟安</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">59896</td>
+			<td nowrap align="right"> 51.30%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=03&candNo=2">蘇清泉</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">50195</td>
+			<td nowrap align="right"> 42.99%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=013&areaCode=03&candNo=3">周碧雲</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">6653</td>
+			<td nowrap align="right">  5.69%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=014&areaCode=01">臺東縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=014&areaCode=01&candNo=1">許志雄</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">21080</td>
+			<td nowrap align="right"> 37.01%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=014&areaCode=01&candNo=2">黃健庭</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">34794</td>
+			<td nowrap align="right"> 61.09%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=014&areaCode=01&candNo=3">劉昀筑</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">客家黨</td>
+			<td nowrap align="right">1078</td>
+			<td nowrap align="right">  1.89%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01">花蓮縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01&candNo=1">鍾寶珠</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1966</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">2473</td>
+			<td nowrap align="right">  2.62%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01&candNo=2">盧博基</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1949</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">27207</td>
+			<td nowrap align="right"> 28.88%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01&candNo=3">傅崐萁</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1962</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">62548</td>
+			<td nowrap align="right"> 66.39%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01&candNo=4">何智弘</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1979</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">172</td>
+			<td nowrap align="right">  0.18%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01&candNo=5">詹益萬</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1974</td>
+			<td nowrap align="center">紅黨</td>
+			<td nowrap align="right">682</td>
+			<td nowrap align="right">  0.72%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=015&areaCode=01&candNo=6">鍾尚廷</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1119</td>
+			<td nowrap align="right">  1.18%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=016&areaCode=01">澎湖縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=016&areaCode=01&candNo=1">歐中慨</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">3373</td>
+			<td nowrap align="right">  8.73%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=016&areaCode=01&candNo=2">黃中陽</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1976</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">300</td>
+			<td nowrap align="right">  0.77%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=016&areaCode=01&candNo=3">陳光復</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1955</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">15356</td>
+			<td nowrap align="right"> 39.76%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=016&areaCode=01&candNo=4">林炳坤</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1948</td>
+			<td nowrap align="center">無黨團結聯盟</td>
+			<td nowrap align="right">19584</td>
+			<td nowrap align="right"> 50.71%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=017&areaCode=01">基隆市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=017&areaCode=01&candNo=1">游祥耀</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">41709</td>
+			<td nowrap align="right"> 28.58%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=017&areaCode=01&candNo=2">呂貞中</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">1869</td>
+			<td nowrap align="right">  1.28%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=017&areaCode=01&candNo=3">王醒之</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1972</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">3426</td>
+			<td nowrap align="right">  2.34%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=017&areaCode=01&candNo=4">謝國樑</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1975</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">98926</td>
+			<td nowrap align="right"> 67.79%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=018&areaCode=01">新竹市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=018&areaCode=01&candNo=1">呂學樟</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">99124</td>
+			<td nowrap align="right"> 60.61%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=018&areaCode=01&candNo=2">鄭宏輝</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1969</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">62334</td>
+			<td nowrap align="right"> 38.12%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=018&areaCode=01&candNo=3">鄧秀寶</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">民主自由黨</td>
+			<td nowrap align="right">2059</td>
+			<td nowrap align="right">  1.25%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=01">臺中市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=01&candNo=1">蔡明憲</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1941</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">53471</td>
+			<td nowrap align="right"> 38.70%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=01&candNo=2">蔡錦隆</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">84664</td>
+			<td nowrap align="right"> 61.29%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=02">臺中市第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=02&candNo=1">楊宗澧</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1976</td>
+			<td nowrap align="center">第三社會黨</td>
+			<td nowrap align="right">791</td>
+			<td nowrap align="right">  0.47%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=02&candNo=2">沈智慧</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">10714</td>
+			<td nowrap align="right">  6.37%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=02&candNo=3">謝明源</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">60582</td>
+			<td nowrap align="right"> 36.06%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=02&candNo=4">盧秀燕</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1961</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">95873</td>
+			<td nowrap align="right"> 57.08%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=5 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=03">臺中市第03選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=03&candNo=1">賀姿華</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1967</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1673</td>
+			<td nowrap align="right">  1.20%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=03&candNo=2">何敏豪</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1958</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">59969</td>
+			<td nowrap align="right"> 43.21%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=03&candNo=3">林振東</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">民主自由黨</td>
+			<td nowrap align="right">611</td>
+			<td nowrap align="right">  0.44%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=03&candNo=4">王名江</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1950</td>
+			<td nowrap align="center">大道慈悲濟世黨</td>
+			<td nowrap align="right">322</td>
+			<td nowrap align="right">  0.23%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=019&areaCode=03&candNo=5">黃義交</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1953</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">76209</td>
+			<td nowrap align="right"> 54.91%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=4 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=020&areaCode=01">嘉義市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=020&areaCode=01&candNo=1">凌子楚</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1965</td>
+			<td nowrap align="center">台灣團結聯盟</td>
+			<td nowrap align="right">14273</td>
+			<td nowrap align="right"> 12.63%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=020&areaCode=01&candNo=2">江義雄</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1944</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">52774</td>
+			<td nowrap align="right"> 46.70%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=020&areaCode=01&candNo=3">莊和子</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1945</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">45293</td>
+			<td nowrap align="right"> 40.08%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=020&areaCode=01&candNo=4">林瑞霞</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">綠黨</td>
+			<td nowrap align="right">663</td>
+			<td nowrap align="right">  0.58%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=021&areaCode=01">臺南市第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=021&areaCode=01&candNo=1">陳亭妃</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1974</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">86983</td>
+			<td nowrap align="right"> 50.27%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=021&areaCode=01&candNo=2">王昱婷</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">女</td>
+			<td nowrap align="center">1973</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">86040</td>
+			<td nowrap align="right"> 49.72%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=2 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=021&areaCode=02">臺南市第02選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=021&areaCode=02&candNo=1">高思博</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">82566</td>
+			<td nowrap align="right"> 48.35%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=03&cityCode=021&areaCode=02&candNo=2">賴清德</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1959</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">88172</td>
+			<td nowrap align="right"> 51.64%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=6 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01">金門縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01&candNo=1">陳福海</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1963</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">9912</td>
+			<td nowrap align="right"> 37.31%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01&candNo=2">李沃士</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1960</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">5274</td>
+			<td nowrap align="right"> 19.85%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01&candNo=3">高絃騰</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1952</td>
+			<td nowrap align="center">公民黨</td>
+			<td nowrap align="right">39</td>
+			<td nowrap align="right">  0.14%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01&candNo=4">胡偉生</a></td>
+			<td nowrap align="center">4</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">無黨籍及未經政黨推薦</td>
+			<td nowrap align="right">1070</td>
+			<td nowrap align="right">  4.02%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01&candNo=5">唐惠霈</a></td>
+			<td nowrap align="center">5</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1976</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">431</td>
+			<td nowrap align="right">  1.62%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=001&areaCode=01&candNo=6">吳成典</a></td>
+			<td nowrap align="center">6</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">9838</td>
+			<td nowrap align="right"> 37.03%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap rowspan=3 align=center><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=002&areaCode=01">連江縣第01選區</a></td>
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=002&areaCode=01&candNo=1">曹成俤</a></td>
+			<td nowrap align="center">1</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1968</td>
+			<td nowrap align="center">民主進步黨</td>
+			<td nowrap align="right">142</td>
+			<td nowrap align="right">  3.23%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">否</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=002&areaCode=01&candNo=2">林惠官</a></td>
+			<td nowrap align="center">2</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1957</td>
+			<td nowrap align="center">親民黨</td>
+			<td nowrap align="right">2064</td>
+			<td nowrap align="right"> 47.03%</td>
+			<td nowrap align="center"> </td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+		<!-- 直轄市及省轄市內容 -->
+		<tr class="data">
+
+			<td nowrap align="center"><a href="histQuery.jsp?voteCode=20080101T1A2&qryType=ctks&prvCode=04&cityCode=002&areaCode=01&candNo=3">曹爾忠</a></td>
+			<td nowrap align="center">3</td>
+			<td nowrap align="center">男</td>
+			<td nowrap align="center">1954</td>
+			<td nowrap align="center">中國國民黨</td>
+			<td nowrap align="right">2182</td>
+			<td nowrap align="right"> 49.72%</td>
+			<td nowrap align="center">*</td>
+			<td nowrap align="center">是</td>
+		</tr>
+
+	</table>
+
+
+
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<div style="width: 100%; height: 20px; margin: 30px 0px 0px 0px; text-align: center; ">
+
+	<span>
+		<img src="images/leave_arrow_left.gif" />
+	</span>
+	<span style="margin: 0px 10px 0px 10px; ">
+		<a style="text-decoration: none; font-size: 15px; " href="histPrintXls">下載(XLS)</a>
+	</span>
+	<span>
+		<img src="images/leave_arrow_right.gif" />
+	</span>
+	<span>
+		<img src="images/leave_arrow_left.gif" />
+	</span>
+	<span style="margin: 0px 10px 0px 10px; ">
+		<a style="text-decoration: none; font-size: 15px; " href="histPrintOds">下載(ODS)</a>
+	</span>
+	<span>
+		<img src="images/leave_arrow_right.gif" />
+	</span>
+
+    <span style="margin-right: 100px;">&nbsp;</span>
+
+
+
+	<span>
+		<img src="images/leave_arrow_left.gif" />
+	</span>
+	<span style="margin: 0px 10px 0px 10px; ">
+		<a style="text-decoration: none; font-size: 15px; " href="histMain.jsp">離開</a>
+	</span>
+	<span>
+		<img src="images/leave_arrow_right.gif" />
+	</span>
+</div>
+
+
+	</div>
+</body>
+</html>
